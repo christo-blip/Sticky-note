@@ -1,0 +1,160 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+    
+body
+{
+background: #ffe793;
+font-family:"Architects Daughter";
+font-size: 24px;
+}
+
+
+.main-container{
+    width: 95%;
+    margin: auto;
+
+}
+
+.container1 {
+    margin-left: 5%;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.container3
+{
+     display:none; 
+    position: absolute;
+    top: 26%;
+    left:40%;
+}
+
+
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    outline: none;
+    border: none;
+    width:275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px ;
+
+}
+
+
+svg
+{
+color: gray;
+
+}
+
+#check-icon
+{
+position: absolute;
+right: 17%;
+top: 4%;
+}
+
+#x-icon
+{
+    position: absolute;
+right: 5%;
+top: 4%;
+}
+
+.action{
+
+position:fixed;
+bottom: 50px;
+left: 50px;
+width:50px;
+height: 50px;
+background: #fff;
+border-radius: 50%;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+
+
+}
+
+.action span
+{
+position: relative;
+width: 100%;
+height:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+align-items: center;
+color:#ffe793 ;
+font-size: 2em;
+transition: 0.3s ease-in-out;
+}
+
+.action.active span
+{
+transform: rotate(135deg);
+
+}
+.action ul{
+
+    position: absolute;
+    bottom: 55px;
+    background: #fff;
+    min-width: 250px;
+    padding: 20px;
+    border-radius:20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+    }
+    
+    .action.active ul
+    {
+    bottom: 65px;
+        opacity: 1;
+        visibility: visible;
+        transition: 0.3s;
+    
+}
+.action.active ul li
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
+    transition: 0.3s;
+
+}   
+
+.action ul li:hover
+{
+font-weight: 600;
+}
+
+.action ul li:not(last-child)
+{
+
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.action ul li {
+    margin-right: 10px;
+    opacity: 0.5;
+    transform: scale(0.8);
+    list-style: none
+}
+.action ul li:hover {
+    opacity: 0.8;
+
+}

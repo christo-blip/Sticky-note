@@ -1,0 +1,19 @@
+ANSWERS
+1.turquoise and emerald
+
+2.CSS libraries are also called CSS framework. The useage of CSS libraries is make more standardized for the
+practice for web development. Using  CSS Library you can make website more  attractive,user friendly 
+and fast-track your web development  effort as it allows you to use more and predefined web elements.
+
+3.yes, I faced many challenges because i learned to develope a normal website using html,css,bootstrap,php and mysqli
+with less useage of css .In this project useage of css is high .Two different  actions of css running in same project .Placeing the 
+position for the sticky note is some difficult in this project. Only some option has created in this project. More i refered from youtube.
+
+4.Any time i can join
+
+5.Yes Iam Eagerly Waiting.
+
+
+
+
+
